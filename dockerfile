@@ -1,6 +1,8 @@
 FROM python:3
 
-WORKDIR  /app/robust/
+WORKDIR  /robbr/
+
+USER robbr
 
 COPY . .
 
